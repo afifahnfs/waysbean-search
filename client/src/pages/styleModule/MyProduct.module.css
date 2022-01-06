@@ -1,0 +1,82 @@
+.top{
+  width: 850px;
+  background-color: #DBB699;
+  margin: 40px 0 40px 190px;
+}
+
+/* ----------------------- MAIN -------------------- */
+.main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.wrapCard {
+  border: unset;
+}
+
+.content{
+  margin-right: 5px;
+}
+
+.cardBody{
+  background-color: #F7E6DA;
+  height: auto;
+  width: 241px;
+}
+
+.titleProduct{
+  font-weight: 800;
+  font-size: 18px;
+  cursor: pointer;
+  width: 241px;
+  color:  #613D2B;;
+}
+
+.textCard {
+  font-size: 14px;
+  line-height: 19px;
+  color: #974A4A;;
+  margin-bottom: 5px;
+}
+
+.photo{
+  width: 241px;
+  height: 312px;
+}
+
+.btnEdit {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(36, 121, 233);
+  border-radius: 5px;
+  color: white;
+  font-weight: 900;
+  border: none;
+}
+
+.btnEdit:hover {
+  background-color: white;
+  border: 2px solid rgb(36, 121, 233);
+  color: rgb(36, 121, 233);
+  font-weight: 900;
+
+}
+
+.btnDelete {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(231, 62, 50);
+  border-radius: 5px;
+  color: white;
+  font-weight: 900;
+  border: none;
+}
+
+.btnDelete:hover {
+  background-color: white;
+  border: 2px solid rgb(231, 62, 50);
+  color: rgb(231, 62, 50);
+  font-weight: 900;
+}

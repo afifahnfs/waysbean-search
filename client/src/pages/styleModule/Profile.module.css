@@ -1,0 +1,226 @@
+.main{
+  position: absolute;
+  width: 100%;
+  height: 800px;
+
+}
+
+.row{
+  margin: 70px 80px;
+}
+
+.title{
+  margin-bottom: 40px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33px;
+  color: #613D2B;
+
+}
+
+.imgProfile{
+  width: 180px;
+  height: 200px; 
+  border-radius: 5px;
+  margin-right: 25px;
+  height: 220px;
+  background-color: #F6E6DA;
+}
+
+.label{
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #613D2B;
+}
+
+.isi{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.btnProfile{
+  width: 180px;
+  height: 40px;
+  background: #433434;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: sans-serif;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.btnProfile:hover{
+  border: 3px solid#433434d7;
+  background-color: white;
+  color: #433434d7;
+  font-weight: 800;
+}
+
+
+
+
+/* ------------------RIGHT SIDE--------------------- */
+
+.left {
+  margin-left: 50px;
+  
+}
+
+/* .trsLeft {
+  width: 200px;
+} */
+
+.cardTransaction{
+  width: 430px;
+  height: 150px;
+  background-color: #F6E6DA;
+}
+
+.poto{
+  width: 80px;
+  height: 110px;
+  background-color: rgba(97, 61, 43, 0.25);
+  margin-right: 10px;
+}
+
+.namePartner{
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 17px;
+  color: #613D2B;
+  width: 190px;
+}
+
+.tgl{
+  font-size: 11px;
+  line-height: 12px;
+  margin-bottom: 11px;
+}
+
+
+.textTrs {
+  font-size: 10px;
+  line-height: 14px;
+  color: #974A4A;
+  margin: 0;
+}
+
+.total{
+  font-size: 10px;
+  line-height: 14px;
+  color: #974A4A;
+  margin: 0;
+  font-weight: 900;
+}
+
+.logo{
+  width: 73px;
+  height: 22px;
+  margin-left: 20px;
+}
+
+.barcode {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.btnSuccess{
+  width: 112px;
+  height: 19px;
+  margin-top: 15px;
+  background-color: #bbf5d973 ;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color:  #00ff4c;
+  border: none;
+  border-radius: 2px;
+  padding: 0;
+  height: 20px;
+}
+
+.btnSuccess:hover{
+  background-color: #00ff4c;
+  color:  white
+}
+
+
+.btnTrs{
+  width: 112px;
+  margin-top: 15px;
+  background-color: #bbf5d973 ;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color:  #00ff4c;
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  height: 20px;
+}
+
+.btnTrs:hover{
+  background-color: #00ff4c;
+  color:  white
+}
+
+.btnTrsApprove{
+  width: 112px;
+  margin-top: 15px;
+  background-color: #bbf5d973 ;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color:  #FF9900;
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  height: 20px;
+}
+
+.btnTrsApprove:hover{
+  background-color: #FF9900;
+  color:  white
+}
+
+.btnTrsOtw{
+  width: 112px;
+  margin-top: 15px;
+  background-color: #433434;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color:  white;
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  height: 20px;
+}
+
+.btnTrsOtw:hover{
+  background-color: white;
+  color:  #433434;
+  border: 2px solid#433434d7;
+}
+
+.btnTrsCancel{
+  width: 112px;
+  margin-top: 15px;
+  background-color: #bbf5d973 ;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color:  #E83939;
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  height: 20px;
+}
+
+.btnTrsCancel:hover{
+  background-color: #E83939;
+  color:  white
+}

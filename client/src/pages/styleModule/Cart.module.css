@@ -1,0 +1,168 @@
+.main{
+  position: absolute;
+  width: 100%;
+  height: auto;
+
+}
+
+.wrap{
+  margin: 70px 80px;
+}
+
+.mainTitle{
+  margin-top: 60px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 33px;
+  margin-bottom: 40px;
+  color: #613D2B;
+}
+
+.text{
+  font-size: 18px;
+  line-height: 25px;
+  color: #613D2B;
+  font-weight: 500;
+}
+
+/* --------------------- CARD LEFT -------------------  */
+
+.card{
+  border-bottom: 2px solid #433434;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border{
+  border: 1px solid #433434;
+  height: 2px;
+}
+
+.titleTable{
+  font-size: 18px;
+  line-height: 25px;
+  color: #613D2B;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.cardOrder{
+  display: flex;
+}
+
+.img{
+  width: 80px;
+  height: 80px;
+}
+
+.cookName{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  color: #613D2B;
+}
+
+.pesan{
+  margin-left: 20px;
+}
+
+.qty{
+  width: 30px;
+  padding-left: 10px;
+  height: 20px;
+  background: #F6E6DA;
+  height: 25px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+  color: #613D2B;
+}
+
+.btnPlusMin{
+  height: 25px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  color: #613D2B;
+  border: none;
+  background-color: unset;
+}
+
+.textCard{
+  font-size: 14px;
+  color: #974A4A;
+}
+
+.btnTrash{
+  border: none;
+  background-color: unset;
+}
+
+/* --------------------------- CARD RIGHT ------------------------- */
+
+.cardRight{
+  border-bottom: 2px solid #433434;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTotal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+
+.cardPrice{
+  text-align: end;
+}
+
+.subtotal{
+  font-size: 14px;
+}
+
+.priceSubtotal{
+  text-align: end;
+}
+
+.total{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  color: #974A4A;
+}
+
+.btnWrap{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnOrder{
+  width: 260px;
+  height: 40px;
+  left: 980px;
+  background: #433434;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.btnOrder:hover{
+  border: 3px solid #433434;
+  background-color: white;
+  color: #433434;
+  font-weight: 800;
+}
+
+

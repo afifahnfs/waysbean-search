@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  margin-top: 80px;
+
+}
+
+.photo {
+  margin: 0 40px;
+  width: 350px;
+  height: 450px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 66px;
+  color: #613D2B;
+}
+
+.stock {
+  font-size: 18px;
+  line-height: 25px;
+  color: #974A4A;
+}
+
+.desc {
+  width: 544px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+  color: #000000;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  color: #974A4A;
+  text-align: end;
+}
+
+.btn {
+  width: 544px;
+  height: 40px;
+  color: white;
+  background: #613D2B;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  }
+
+.btn:hover {
+  color: #613D2B;
+  background-color: white;
+  font-weight: 900;
+  border: 3px solid #613D2B;
+}
